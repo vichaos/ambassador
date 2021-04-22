@@ -67,7 +67,7 @@ require (
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/golang/protobuf v1.4.3
 	github.com/google/go-cmp v0.5.2
-	github.com/google/shlex v0.0.0-20181106134648-c34317bd91bf
+	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
 	github.com/google/uuid v1.1.2
 	github.com/gookit/color v1.2.3
 	github.com/gorilla/websocket v1.4.2
@@ -84,25 +84,25 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.7.0
 	github.com/telepresenceio/telepresence/v2 v2.1.1-rc.0
-	golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad
-	golang.org/x/net v0.0.0-20210119194325-5f4716e94777
-	golang.org/x/sys v0.0.0-20210124154548-22da62e12c0c
+	golang.org/x/crypto v0.0.0-20210220033148-5ea612d1eb83
+	golang.org/x/net v0.0.0-20210224082022-3d97a244fca7
+	golang.org/x/sys v0.0.0-20210225134936-a50acf3fe073
 	google.golang.org/genproto v0.0.0-20201110150050-8816d57aaa9a
 	google.golang.org/grpc v1.34.0
 	google.golang.org/protobuf v1.25.0
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
-	gopkg.in/yaml.v2 v2.3.0
+	gopkg.in/yaml.v2 v2.4.0
 	helm.sh/helm/v3 v3.5.3
-	k8s.io/api v0.20.2
+	k8s.io/api v0.21.0
 	k8s.io/apiextensions-apiserver v0.20.2
-	k8s.io/apimachinery v0.20.2
-	k8s.io/cli-runtime v0.20.2
-	k8s.io/client-go v0.20.2
+	k8s.io/apimachinery v0.21.0
+	k8s.io/cli-runtime v0.21.0
+	k8s.io/client-go v0.21.0
 	k8s.io/helm v2.16.9+incompatible
 	k8s.io/klog v1.0.0
-	k8s.io/kube-openapi v0.0.0-20201113171705-d219536bb9fd
-	k8s.io/kubectl v0.20.2
-	k8s.io/metrics v0.20.2
+	k8s.io/kube-openapi v0.0.0-20210305001622-591a79e4bda7
+	k8s.io/kubectl v0.21.0
+	k8s.io/metrics v0.21.0
 	sigs.k8s.io/controller-runtime v0.8.0
 	sigs.k8s.io/controller-tools v0.4.1
 	sigs.k8s.io/gateway-api v0.2.0
