@@ -73,7 +73,7 @@ require (
 	github.com/gorilla/websocket v1.4.2
 	github.com/hashicorp/consul/api v1.3.0
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
-	github.com/mholt/archiver/v3 v3.3.0
+	github.com/mholt/archiver/v3 v3.5.0
 	github.com/miekg/dns v1.1.35
 	github.com/mitchellh/mapstructure v1.1.2
 	github.com/pkg/browser v0.0.0-20180916011732-0a3d74bf9ce4
