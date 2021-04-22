@@ -71,7 +71,7 @@ require (
 	github.com/google/uuid v1.1.2
 	github.com/gookit/color v1.2.3
 	github.com/gorilla/websocket v1.4.2
-	github.com/hashicorp/consul/api v1.3.0
+	github.com/hashicorp/consul/api v1.8.1
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
 	github.com/mholt/archiver/v3 v3.3.0
 	github.com/miekg/dns v1.1.35
