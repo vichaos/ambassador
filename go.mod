@@ -57,7 +57,7 @@ require (
 	git.lukeshu.com/go/libsystemd v0.5.3
 	github.com/Masterminds/semver v1.4.2
 	github.com/Masterminds/sprig v2.17.1+incompatible
-	github.com/census-instrumentation/opencensus-proto v0.2.1
+	github.com/census-instrumentation/opencensus-proto v0.3.0
 	github.com/cncf/udpa/go v0.0.0-20200629203442-efcf912fb354
 	github.com/datawire/dlib v1.2.0
 	github.com/datawire/pf v0.0.0-20180510150411-31a823f9495a
