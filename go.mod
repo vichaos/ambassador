@@ -91,7 +91,7 @@ require (
 	google.golang.org/grpc v1.34.0
 	google.golang.org/protobuf v1.25.0
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
-	gopkg.in/yaml.v2 v2.3.0
+	gopkg.in/yaml.v2 v2.4.0
 	helm.sh/helm/v3 v3.5.3
 	k8s.io/api v0.20.2
 	k8s.io/apiextensions-apiserver v0.20.2
