@@ -63,7 +63,7 @@ iniconfig==1.1.1
     # via pytest
 itsdangerous==1.1.0
     # via flask
-jinja2==2.11.2
+jinja2==2.11.3
     # via flask
 jmespath==0.10.0
     # via botocore
@@ -99,7 +99,7 @@ protobuf==3.13.0
     # via k8s-proto
 ptyprocess==0.6.0
     # via pexpect
-py==1.9.0
+py==1.10.0
     # via
     #   pytest
     #   retry
