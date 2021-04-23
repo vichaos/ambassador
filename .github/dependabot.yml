@@ -1,0 +1,20 @@
+version: 2
+updates:
+- package-ecosystem: gomod
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 99
+  target-branch: rel/v1.13.1
+- package-ecosystem: github-actions
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 99
+  target-branch: rel/v1.13.1
+- package-ecosystem: docker
+  directory: "/docker/base-envoy"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 99
+  target-branch: rel/v1.13.1
