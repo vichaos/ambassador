@@ -66,14 +66,14 @@ require (
 	github.com/envoyproxy/protoc-gen-validate v0.3.0-java.0.20200609174644-bd816e4522c1
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/golang/protobuf v1.4.3
-	github.com/google/go-cmp v0.5.2
+	github.com/google/go-cmp v0.5.5
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
 	github.com/google/uuid v1.1.2
 	github.com/gookit/color v1.2.3
 	github.com/gorilla/websocket v1.4.2
 	github.com/hashicorp/consul/api v1.3.0
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
-	github.com/mholt/archiver/v3 v3.3.0
+	github.com/mholt/archiver/v3 v3.5.1
 	github.com/miekg/dns v1.1.35
 	github.com/mitchellh/mapstructure v1.1.2
 	github.com/pkg/browser v0.0.0-20180916011732-0a3d74bf9ce4
