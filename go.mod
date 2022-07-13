@@ -66,15 +66,15 @@ require (
 	github.com/envoyproxy/protoc-gen-validate v0.3.0-java.0.20200609174644-bd816e4522c1
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/golang/protobuf v1.4.3
-	github.com/google/go-cmp v0.5.2
+	github.com/google/go-cmp v0.5.7
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
 	github.com/google/uuid v1.1.2
 	github.com/gookit/color v1.2.3
 	github.com/gorilla/websocket v1.4.2
-	github.com/hashicorp/consul/api v1.3.0
+	github.com/hashicorp/consul/api v1.13.1
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
 	github.com/mholt/archiver/v3 v3.3.0
-	github.com/miekg/dns v1.1.35
+	github.com/miekg/dns v1.1.41
 	github.com/mitchellh/mapstructure v1.1.2
 	github.com/pkg/browser v0.0.0-20180916011732-0a3d74bf9ce4
 	github.com/pkg/errors v0.9.1
@@ -85,8 +85,8 @@ require (
 	github.com/stretchr/testify v1.7.0
 	github.com/telepresenceio/telepresence/v2 v2.1.1-rc.0
 	golang.org/x/crypto v0.0.0-20210220033148-5ea612d1eb83
-	golang.org/x/net v0.0.0-20210224082022-3d97a244fca7
-	golang.org/x/sys v0.0.0-20210225134936-a50acf3fe073
+	golang.org/x/net v0.0.0-20210410081132-afb366fc7cd1
+	golang.org/x/sys v0.0.0-20220412211240-33da011f77ad
 	google.golang.org/genproto v0.0.0-20201110150050-8816d57aaa9a
 	google.golang.org/grpc v1.34.0
 	google.golang.org/protobuf v1.25.0
