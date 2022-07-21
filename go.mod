@@ -55,58 +55,59 @@ go 1.13
 
 require (
 	git.lukeshu.com/go/libsystemd v0.5.3
-	github.com/Masterminds/semver v1.4.2
-	github.com/Masterminds/sprig v2.17.1+incompatible
+	github.com/Masterminds/semver v1.5.0
+	github.com/Masterminds/sprig v2.22.0+incompatible
 	github.com/census-instrumentation/opencensus-proto v0.2.1
-	github.com/cncf/udpa/go v0.0.0-20200629203442-efcf912fb354
+	github.com/cncf/udpa/go v0.0.0-20210930031921-04548b0d99d4
 	github.com/datawire/dlib v1.2.0
 	github.com/datawire/pf v0.0.0-20180510150411-31a823f9495a
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/ecodia/golang-awaitility v0.0.0-20180710094957-fb55e59708c7
 	github.com/envoyproxy/protoc-gen-validate v0.3.0-java.0.20200609174644-bd816e4522c1
 	github.com/fsnotify/fsnotify v1.4.9
-	github.com/golang/protobuf v1.4.3
-	github.com/google/go-cmp v0.5.2
+	github.com/golang/protobuf v1.5.2
+	github.com/google/go-cmp v0.5.7
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
-	github.com/google/uuid v1.1.2
+	github.com/google/uuid v1.2.0
 	github.com/gookit/color v1.2.3
 	github.com/gorilla/websocket v1.4.2
 	github.com/hashicorp/consul/api v1.3.0
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
 	github.com/mholt/archiver/v3 v3.3.0
 	github.com/miekg/dns v1.1.35
-	github.com/mitchellh/mapstructure v1.1.2
+	github.com/mitchellh/mapstructure v1.4.1
 	github.com/pkg/browser v0.0.0-20180916011732-0a3d74bf9ce4
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_model v0.2.0
-	github.com/sirupsen/logrus v1.7.0
-	github.com/spf13/cobra v1.1.1
+	github.com/sirupsen/logrus v1.8.1
+	github.com/spf13/cobra v1.4.0
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.7.2
 	github.com/telepresenceio/telepresence/v2 v2.1.1-rc.0
-	golang.org/x/crypto v0.0.0-20210220033148-5ea612d1eb83
-	golang.org/x/net v0.0.0-20210224082022-3d97a244fca7
-	golang.org/x/sys v0.0.0-20210225134936-a50acf3fe073
-	google.golang.org/genproto v0.0.0-20201110150050-8816d57aaa9a
-	google.golang.org/grpc v1.34.0
-	google.golang.org/protobuf v1.25.0
+	go.opentelemetry.io/otel/internal/metric v0.27.0 // indirect
+	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e
+	golang.org/x/net v0.0.0-20220127200216-cd36cc0744dd
+	golang.org/x/sys v0.0.0-20220412211240-33da011f77ad
+	google.golang.org/genproto v0.0.0-20220107163113-42d7afdf6368
+	google.golang.org/grpc v1.43.0
+	google.golang.org/protobuf v1.27.1
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 	gopkg.in/yaml.v2 v2.4.0
-	helm.sh/helm/v3 v3.5.3
-	k8s.io/api v0.21.0
-	k8s.io/apiextensions-apiserver v0.20.2
-	k8s.io/apimachinery v0.21.0
-	k8s.io/cli-runtime v0.21.0
-	k8s.io/client-go v0.21.0
+	helm.sh/helm/v3 v3.9.2
+	k8s.io/api v0.24.2
+	k8s.io/apiextensions-apiserver v0.24.2
+	k8s.io/apimachinery v0.24.2
+	k8s.io/cli-runtime v0.24.2
+	k8s.io/client-go v0.24.2
 	k8s.io/helm v2.16.9+incompatible
 	k8s.io/klog v1.0.0
-	k8s.io/kube-openapi v0.0.0-20210305001622-591a79e4bda7
-	k8s.io/kubectl v0.20.2
-	k8s.io/metrics v0.20.2
+	k8s.io/kube-openapi v0.0.0-20220328201542-3ee0da9b0b42
+	k8s.io/kubectl v0.24.2
+	k8s.io/metrics v0.24.2
 	sigs.k8s.io/controller-runtime v0.8.0
 	sigs.k8s.io/controller-tools v0.4.1
 	sigs.k8s.io/gateway-api v0.2.0
-	sigs.k8s.io/yaml v1.2.0
+	sigs.k8s.io/yaml v1.3.0
 )
 
 // We need to inherit this from helm.sh/helm/v3
