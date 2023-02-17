@@ -57,56 +57,58 @@ require (
 	git.lukeshu.com/go/libsystemd v0.5.3
 	github.com/Masterminds/semver v1.4.2
 	github.com/Masterminds/sprig v2.17.1+incompatible
-	github.com/census-instrumentation/opencensus-proto v0.2.1
-	github.com/cncf/udpa/go v0.0.0-20200629203442-efcf912fb354
-	github.com/datawire/dlib v1.2.0
+	github.com/aokoli/goutils v1.1.0 // indirect
+	github.com/cenkalti/backoff v2.2.1+incompatible // indirect
+	github.com/census-instrumentation/opencensus-proto v0.3.0
+	github.com/cncf/udpa/go v0.0.0-20210930031921-04548b0d99d4
+	github.com/datawire/dlib v1.3.1-0.20221228104658-e373c6d44961
 	github.com/datawire/pf v0.0.0-20180510150411-31a823f9495a
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/ecodia/golang-awaitility v0.0.0-20180710094957-fb55e59708c7
 	github.com/envoyproxy/protoc-gen-validate v0.3.0-java.0.20200609174644-bd816e4522c1
-	github.com/fsnotify/fsnotify v1.4.9
-	github.com/golang/protobuf v1.4.3
-	github.com/google/go-cmp v0.5.2
+	github.com/fsnotify/fsnotify v1.6.0
+	github.com/golang/protobuf v1.5.2
+	github.com/google/go-cmp v0.5.9
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
-	github.com/google/uuid v1.1.2
+	github.com/google/uuid v1.3.0
 	github.com/gookit/color v1.2.3
 	github.com/gorilla/websocket v1.4.2
 	github.com/hashicorp/consul/api v1.3.0
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
 	github.com/mholt/archiver/v3 v3.3.0
-	github.com/miekg/dns v1.1.35
-	github.com/mitchellh/mapstructure v1.1.2
+	github.com/miekg/dns v1.1.50
+	github.com/mitchellh/mapstructure v1.4.1
 	github.com/pkg/browser v0.0.0-20180916011732-0a3d74bf9ce4
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_model v0.2.0
-	github.com/sirupsen/logrus v1.7.0
-	github.com/spf13/cobra v1.1.1
+	github.com/prometheus/client_model v0.3.0
+	github.com/sirupsen/logrus v1.9.0
+	github.com/spf13/cobra v1.6.1
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.7.0
-	github.com/telepresenceio/telepresence/v2 v2.1.1-rc.0
-	golang.org/x/crypto v0.0.0-20210220033148-5ea612d1eb83
-	golang.org/x/net v0.0.0-20210224082022-3d97a244fca7
-	golang.org/x/sys v0.0.0-20210225134936-a50acf3fe073
-	google.golang.org/genproto v0.0.0-20201110150050-8816d57aaa9a
-	google.golang.org/grpc v1.34.0
-	google.golang.org/protobuf v1.25.0
+	github.com/stretchr/testify v1.8.1
+	github.com/telepresenceio/telepresence/v2 v2.11.0-rc.1
+	golang.org/x/crypto v0.5.0
+	golang.org/x/net v0.5.0
+	golang.org/x/sys v0.4.0
+	google.golang.org/genproto v0.0.0-20221207170731-23e4bf6bdc37
+	google.golang.org/grpc v1.51.0
+	google.golang.org/protobuf v1.28.1
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 	gopkg.in/yaml.v2 v2.4.0
-	helm.sh/helm/v3 v3.5.3
-	k8s.io/api v0.21.0
-	k8s.io/apiextensions-apiserver v0.20.2
-	k8s.io/apimachinery v0.21.0
-	k8s.io/cli-runtime v0.21.0
-	k8s.io/client-go v0.21.0
+	helm.sh/helm/v3 v3.11.1
+	k8s.io/api v0.26.0
+	k8s.io/apiextensions-apiserver v0.26.0
+	k8s.io/apimachinery v0.26.0
+	k8s.io/cli-runtime v0.26.0
+	k8s.io/client-go v0.26.0
 	k8s.io/helm v2.16.9+incompatible
 	k8s.io/klog v1.0.0
-	k8s.io/kube-openapi v0.0.0-20210305001622-591a79e4bda7
-	k8s.io/kubectl v0.20.2
-	k8s.io/metrics v0.20.2
+	k8s.io/kube-openapi v0.0.0-20221207184640-f3cff1453715
+	k8s.io/kubectl v0.26.0
+	k8s.io/metrics v0.26.0
 	sigs.k8s.io/controller-runtime v0.8.0
 	sigs.k8s.io/controller-tools v0.4.1
 	sigs.k8s.io/gateway-api v0.2.0
-	sigs.k8s.io/yaml v1.2.0
+	sigs.k8s.io/yaml v1.3.0
 )
 
 // We need to inherit this from helm.sh/helm/v3
